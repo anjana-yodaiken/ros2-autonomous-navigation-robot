@@ -9,7 +9,7 @@ Differential-drive robot running ROS2 Jazzy. The Pi handles hardware (motors, en
 
 **[CAD model on OnShape](https://cad.onshape.com/documents/0aa8a7be9df8513ca999f15a/w/870686c64cc0b59c04b2a75d/e/d545bfa465fb1c9caba1e132)**
 
-https://github.com/user-attachments/assets/VIDEO_ID_HERE
+https://github.com/user-attachments/assets/bebb4963-49d7-4d1a-ad3a-12c27cb6cca2
 
 ## Repository structure
 
