@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.claude/
+build/
+install/
+log/
+*.data
+*.posegraph
+robot/bin/

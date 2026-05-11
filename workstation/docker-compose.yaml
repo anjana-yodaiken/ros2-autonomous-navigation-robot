@@ -1,0 +1,17 @@
+services:
+  ros2-nav:
+    build: .
+    image: ros2_nav:jazzy
+    container_name: ros2_nav
+    network_mode: host
+    ipc: host
+    environment:
+      - ROS_DOMAIN_ID=0
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+    volumes:
+      - ./workspace:/workspace
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+    tty: true
+    stdin_open: true
