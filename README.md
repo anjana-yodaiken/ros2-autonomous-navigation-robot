@@ -2,12 +2,15 @@
 
 Differential-drive robot running ROS2 Jazzy. The Pi handles hardware (motors, encoders, LiDAR, IMU) and publishes sensor topics. SLAM and Nav2 run on the workstation inside Docker.
 
-<p align="center">
-  <img src="media/build-photo.jpg" width="380" />
-  <img src="media/cad-front-left.jpg" width="380" />
-</p>
+<table align="center"><tr>
+  <td align="center"><img src="media/build-photo.jpg" width="380" /><br><i>Real-world build</i></td>
+  <td align="center"><img src="media/cad-front-left.jpg" width="380" /><br><i><a href="https://cad.onshape.com/documents/0aa8a7be9df8513ca999f15a/w/870686c64cc0b59c04b2a75d/e/d545bfa465fb1c9caba1e132">CAD model</a></i></td>
+</tr></table>
 
-**[CAD model on OnShape](https://cad.onshape.com/documents/0aa8a7be9df8513ca999f15a/w/870686c64cc0b59c04b2a75d/e/d545bfa465fb1c9caba1e132)**
+<p align="center">
+  <img src="media/ros2_node_diagram.jpg" width="600" /><br>
+  <i>ROS2 node graph — how the Pi, Arduino and workstation container connect</i>
+</p>
 
 *I wanted to do something a little different for the robot demo video. After recently watching a horror movie with a friend, I decided to give the demo a slightly spooky theme. Hope you don’t get too scared - and if you do, just remember I was teleoperating the robot with my foot while filming with my hands, which is not very scary at all.*
 
